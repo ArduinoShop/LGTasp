@@ -23,4 +23,4 @@ Click on    Sketch -> Upload Using Programmer
 here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) **NOTE** the AVR proMINI installs with only 1 row on pins - OFFSET 1 pin on either end - the row with D12 and D13, VCC and GND. 
 
                               Bare Bones                                                with CP2102
-   ![bare unit](https://arduinoshop.ca/images/multiISP_NANO32_360.png)      ![with CP2102](https://arduinoshop.ca/images/multiISP_NANO_360.png)
+   ![NAno32](https://arduinoshop.ca/images/multiISP_Nano32_360.png)      ![with AVR Nano](https://arduinoshop.ca/images/multiISP_Nano_360.png)
