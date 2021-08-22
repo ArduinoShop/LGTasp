@@ -19,11 +19,11 @@ The basic hardware consists of a proMINI32 with female headers installed to acce
     select the **AVR ISP** programmer.
   
   ### AVR boards:
-    setup the IDE as usual for your board - select the *Arduino as ISP* programmer.
+  setup the IDE as usual for your board - select the *Arduino as ISP* programmer.
 
 Click on    *Sketch -> Upload Using Programmer* and watch the light show...   
 
-here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) **NOTE** the AVR proMINI installs with only 1 row on pins - OFFSET 1 pin on either end - the row with D12 and D13, VCC and GND etc. 
+here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) **NOTE:** the AVR proMINI installs with only 1 row on pins inserted -  the row with D12 and D13, VCC and GND etc. **It is OFFSET by 1 pin on either end**. 
 
                     Nano32                                       AVR Nano
    ![NAno32](https://arduinoshop.ca/images/multiISP_Nano32_360.png) ...... ![with AVR Nano](https://arduinoshop.ca/images/multiISP_Nano_360.png)
@@ -33,6 +33,6 @@ here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) *
 - **Green LED** - *UpLoading* - this LED lights while the sketch is being uploaded.
 - **Red LED**   - *ERROR*     - this LED will light and stay lit if an error ocurred - it may also flicker as each buffer of data is uploaded.
 - **Yellow LED** - This LED lights when a LGT board is properly connected..  stays off for an AVR board..
-                  if no board is connected it flashes continously.
-                  if both a LGT and an AVR board are connected the Yellow and Red LEDs flashes continously.
+                  If no board is connected it flashes continously.
+                  If both a LGT and an AVR board are connected the Yellow and Red LEDs flashes continously.
 
