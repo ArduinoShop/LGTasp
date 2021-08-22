@@ -15,13 +15,13 @@ The basic hardware consists of a proMINI32 with female headers installed to acce
 ## Basic Operation:
   plug in a CP2102 board and either a LGT board or an AVR board..  Setup the Arduino IDE for the target board as follows:
   ### LGT boards:
-    pay attention to the variant - the SSOP-20 has the serial I/O on different pins. Set the *Arduino as ISP* option to "Default(64)".
+  pay attention to the variant - the SSOP-20 has the serial I/O on different pins. Set the *Arduino as ISP* option to "Default(64)".
     select the **AVR ISP** programmer.
   
   ### AVR boards:
   setup the IDE as usual for your board - select the *Arduino as ISP* programmer.
 
-Click on    *Sketch -> Upload Using Programmer* and watch the light show...   
+**Click on    *Sketch -> Upload Using Programmer* ** and watch the light show...   
 
 here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) **NOTE:** the AVR proMINI installs with only 1 row on pins inserted -  the row with D12 and D13, VCC and GND etc. **It is OFFSET by 1 pin on either end**. 
 
