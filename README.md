@@ -29,9 +29,9 @@ here are some more lousy pictures... (not worth 1000 words but maybe 40-50...) *
    ![NAno32](https://arduinoshop.ca/images/multiISP_Nano32_360.png) ...... ![with AVR Nano](https://arduinoshop.ca/images/multiISP_Nano_360.png)
    
  ## LEDs:  The shield has 4 LEDs to monitor status.
-    - *Blue LED*  - *HeartBeat* - this LED flashes constantly when the LGTasp is running.
-    - *Green LED* - *UpLoading* - this LED lights while the sketch is being uploaded.
-- *Red LED*   - *ERROR*     - this LED wil light and stay lit i an error ocurred - it may also flicker as each buffer of data is uploaded.
-    *Yellow LED* - This LED lights when a LGT board is properly connected..  stays off for an AVR board..
+- **Blue LED** - *HeartBeat* - this LED flashes constantly when the LGTasp is running.
+- **Green LED** - *UpLoading* - this LED lights while the sketch is being uploaded.
+- **Red LED**   - *ERROR*     - this LED wil light and stay lit if an error ocurred - it may also flicker as each buffer of data is uploaded.
+- **Yellow LED** - This LED lights when a LGT board is properly connected..  stays off for an AVR board..
                   if no board is connected it flashes continously.
-                  if 2 boards are connected the Yellow and Red LEDs flashes continously.
+                  if both a LGT and an AVR board are connected the Yellow and Red LEDs flashes continously.
