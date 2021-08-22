@@ -9,4 +9,4 @@ This README is intended to serve as a operatin Manual for the LGTisp module.
 
 The basic hardware consists of a proMINI32 with female headers installed to accept the sheild which this module is.  The sheild fits atop the proMINI32.    I attach a couple of lousy photo which may or may not help in visualizing the programmer.
 
-![bare unit](https://arduinoshop.ca/images/multiISP_0_sm.png) ![with CP2102](https://arduinoshop.ca/images/multiISP_1_sm.png) 
+![bare unit](https://arduinoshop.ca/images/multiISP_0_sm.png) ![with CP2102](https://arduinoshop.ca/images/multiISP_0_sm.png) 
